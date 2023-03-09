@@ -1,0 +1,102 @@
+
+
+.tienda{
+
+  background-image: linear-gradient(rgba(128, 128, 128, 0.445) ), url("../assests/catering11.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1; 
+  
+  &__contenedor{
+        
+    padding-left: 100px;
+    
+
+     &__logo {
+     display: inline;
+     animation-name: aparecer;
+     animation-duration: 2s;
+     text-decoration: none;
+     
+     
+         &__h1{
+         
+         color: black;
+         font-variant: small-caps;
+         font-size: 50px;  
+         text-decoration: none;
+        
+     }
+
+     } 
+ }  
+}
+
+
+
+.imgMenu{
+width: 50%;
+}
+
+.store{
+
+    padding-top: 200px;
+
+}
+.item {
+    
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details > .item-price {
+    margin: 0;
+  }
+  
+  /* ? SHOPPING CART */
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+  

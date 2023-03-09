@@ -1,0 +1,85 @@
+
+.headerMenu{
+
+        background-image: linear-gradient(rgba(128, 128, 128, 0.445) ), url("../assests/catering11.jpg");
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        opacity: 1; 
+}
+
+.imgMenu{
+   width: 50%;
+}
+
+.menuIzq{
+
+    width: 100%;
+    margin-top: 2px;
+    background-color: rgba(165, 165, 50, 0.308);
+    
+    
+    &__contenedor{
+        
+        display: flex;
+        justify-content: center;
+        
+       
+        &__div{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+        
+        p{
+            text-align: center;
+            padding-left: 120px;
+            padding-right: 120px;
+            font-size: 20px;
+          
+        
+        }
+    }
+    
+}
+
+.menuDer{
+
+    width: 100%;
+   
+    background-color: rgba(165, 165, 50, 0.308);
+    margin-top: 2px;
+   
+    
+    &__contenedor{
+
+        display: flex;
+        flex-direction: row-reverse;
+        
+
+        &__div{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+        
+        p{
+            text-align: center;
+            font-size: 20px;
+            padding-left: 120px;
+            padding-right: 120px;
+           
+            
+        }
+       
+    }
+}
+

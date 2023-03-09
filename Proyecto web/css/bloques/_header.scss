@@ -1,0 +1,66 @@
+
+/*////////////////////COLOR PALETTE/////////////////////
+#876445
+#CA965C
+#EEC373
+#F4DFBA
+*/
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+
+    
+    &__contenedor{
+        
+       padding-left: 100px;
+       
+
+        &__logo {
+        display: inline;
+        animation-name: aparecer;
+        animation-duration: 2s;
+        text-decoration: none;
+        
+        
+            &__h1{
+            
+            color: black;
+            font-variant: small-caps;
+            font-size: 50px;  
+            text-decoration: none;
+        }
+
+        } 
+    }  
+}
+
+
+
+
+
+
+.redes{
+
+display: flex;
+align-items: center;
+padding-right: 100px;
+
+}
+
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
